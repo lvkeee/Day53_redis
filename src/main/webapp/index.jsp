@@ -40,7 +40,7 @@ function refer(){
 
 $(function(){
 	$("#sendCode").click( function () {
-	       t=30xx	;
+	       t=30x	;
 		   $.post("sendCode",$("#codeform").serialize(),function(data){
 	    	 if(data=="success"){
 	    		 id= setInterval("refer()",1000);//启动1秒定时
